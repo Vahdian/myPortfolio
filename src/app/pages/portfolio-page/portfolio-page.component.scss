@@ -1,0 +1,31 @@
+.portfolioPage {
+  font-size: 11vw;
+  font-family: anton, sans-serif;
+  font-weight: 1000;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  color: rgb(206, 206, 206);
+  margin-top: 10vh;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+.portfolioPage__titles {
+  border: 1px solid grey;
+  background-color: rgb(231, 231, 231);
+  margin: 0 auto;
+  margin-top: 0rem;
+  color: white;
+
+  &:hover {
+    background-color: hotpink;
+    background: linear-gradient(270deg, #5ad437, #3748d4, #c33f3f, #d4df39);
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    background-size: 800%;
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+  }
+}

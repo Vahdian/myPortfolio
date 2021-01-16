@@ -1,0 +1,13 @@
+.aboutMe {
+  height: 80vh;
+  background-color: rgb(207, 207, 207);
+  padding: 4rem;
+  font-family: roboto mono, sans-serif;
+  &__title {
+    font-weight: 100;
+    color: rgb(78, 78, 78);
+  }
+  &__text {
+    color: rgb(128, 128, 128);
+  }
+}
