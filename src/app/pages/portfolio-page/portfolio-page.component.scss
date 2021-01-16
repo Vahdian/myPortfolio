@@ -29,3 +29,10 @@
     color: rgb(61, 61, 61);
   }
 }
+
+$breakpoint-device: 1050px;
+@media (max-width: $breakpoint-device) {
+  .portfolioPage__titles {
+    font-size: 17vw;
+  }
+}
