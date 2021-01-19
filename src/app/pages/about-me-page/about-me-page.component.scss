@@ -1,10 +1,11 @@
 .aboutMeSection {
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .aboutMe {
   background-color: rgb(241, 241, 241);
-  padding: 4rem;
+  padding: 6rem;
   font-family: roboto mono, sans-serif;
   width: 80%;
   margin: auto;
@@ -21,4 +22,12 @@
 .stackTech {
   height: 7vh;
   margin: 1vw;
+}
+
+$breakpoint-device: 1050px;
+@media (max-width: $breakpoint-device) {
+  .aboutMe {
+    background-color: rgb(241, 241, 241);
+    padding: 1rem;
+}
 }
