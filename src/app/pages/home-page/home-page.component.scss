@@ -18,7 +18,7 @@
   padding-bottom: 0;
   padding-top: 0;
   margin-top: 0;
-
+  overflow: hidden;
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
@@ -109,6 +109,7 @@
     animation: AnimationName 30s ease infinite;
   }
 }
+
 .socialButtonSpace {
   display: flex;
   justify-content: center;
@@ -141,7 +142,8 @@
   position: absolute;
   font-size: 4rem;
   margin-top: -13vh;
-  margin-left: 14vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .stackTech {

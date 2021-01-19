@@ -4,3 +4,11 @@
 @import "styles/imports/elements.imports";
 @import "styles/imports/blocks.imports";
 @import "styles/imports/utilities.imports";
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(22, 22, 22, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}

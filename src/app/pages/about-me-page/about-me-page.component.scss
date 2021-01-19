@@ -1,7 +1,14 @@
+.aboutMeSection {
+  justify-content: center;
+  align-items: center;
+}
 .aboutMe {
-  background-color: rgb(207, 207, 207);
+  background-color: rgb(241, 241, 241);
   padding: 4rem;
   font-family: roboto mono, sans-serif;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
   &__title {
     font-weight: 100;
     color: rgb(78, 78, 78);
@@ -9,4 +16,9 @@
   &__text {
     color: rgb(128, 128, 128);
   }
+}
+
+.stackTech {
+  height: 7vh;
+  margin: 1vw;
 }
